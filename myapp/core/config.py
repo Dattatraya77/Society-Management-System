@@ -1,0 +1,27 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+class Settings():
+    """
+    Load all environment variable from .env
+    """
+    # Email Integration
+    EMAIL_HOST_USER = 'solvitiapi@gmail.com'
+    EMAIL_HOST_PASSWORD = 'xmwyggguysyuyoil'
+
+
+    # Razorpay Integration : suhas
+    RAZORPAY_API_KEY= os.getenv("RAZORPAY_API_KEY")
+    RAZORPAY_API_PASS= os.getenv("RAZORPAY_API_PASS")
+
+
+    # Twilio SMS Integration
+    ACCOUNT_SID = os.getenv("ACCOUNT_SID")
+    AUTH_TOKEN = os.getenv("AUTH_TOKEN")
+    TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")
+
+    # Redis CACHE_TIMEOUT
+    CACHE_TIMEOUT = int(os.getenv("CACHE_TIMEOUT"))
+
+settings = Settings()

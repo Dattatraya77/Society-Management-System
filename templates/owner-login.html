@@ -1,0 +1,50 @@
+{% include 'header.html' %}
+{% load static %}
+
+<div class="container-bg-login ">
+  <div class="login-container">
+
+    {% if errormsg %}
+    <div class="alert alert-danger custom-alert" role="alert">
+      <i class="bi bi-x-circle"></i> {{ errormsg }}
+    </div>
+    {% endif %}
+
+    <!-- Login Form -->
+    <h2 class="login-header">Welcome to Grand Casa Society</h2>
+    <form action="#" method="POST">
+      {% csrf_token %}
+      <div class="mb-4 input-group">
+        <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+        <input
+          type="email"
+          name="ue"
+          class="form-control"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div class="mb-4 input-group">
+        <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
+        <input
+          type="password"
+          name="upass"
+          class="form-control"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+      <div class="forget-pass text-end" style="margin-top: -15px;">
+        <a href="/forgetpass">Forget Password</a>
+      </div>
+      <button type="submit" class="btn btn-custom w-100">Login</button>
+    </form>
+    
+    <div class="dont-have-ac text-center mt-3">
+      <a href="/owner-register">Don’t have an account? Register here!</a>
+    </div>
+  </div>
+</div>
+
+{% include 'footer.html' %}
+
