@@ -1,10 +1,10 @@
-# Society 360 - Society Management System
+# Grand Casa Society - Society Management System
 
 ## Project Title
-"Hello everyone, my project title is Society 360, which is a Society Management System designed to make residential community management efficient, streamlined, and hassle-free for both owners and administrators."
+"Hello everyone, my project title is Grand Casa Society, which is a Society Management System designed to make residential community management efficient, streamlined, and hassle-free for both owners and administrators."
 
 ## Objectives
-The main objectives of the Society 360 project are:
+The main objectives of the Grand Casa Society project are:
 - To provide a centralized platform for owners to manage notices, pay maintenance, and book amenities.
 - To create a smooth and user-friendly interface for administrators to manage notices, payments, and complaints.
 - To offer secure and convenient features like Razorpay payment integration and email notifications for better communication.
@@ -16,7 +16,7 @@ Residential societies often face challenges like:
 - Complicated manual processes for amenity bookings and complaints.
 - Lack of transparency in society management.
 
-Society 360 aims to solve these problems by providing a platform that is easy to use, reliable, and efficient.
+Grand Casa Society aims to solve these problems by providing a platform that is easy to use, reliable, and efficient.
 
 ## Features and Functionality
 ### For Owners:
@@ -51,12 +51,8 @@ We are using MySQL for the database. The database schema includes tables for:
 
 This structure ensures data integrity, ease of access, and efficient management of the system.
 
-### Class Diagram
-![Class Diagram](documentation/class_diagram/class_diagram_svg.svg)
-
-
 ## Project Scope
-The scope of Society 360 includes:
+The scope of Grand Casa Society includes:
 - Managing day-to-day operations of a residential society through a centralized platform.
 - Enabling both owners and admins to perform their respective tasks efficiently.
 - Supporting future updates and features like SMS integration or multi-language support.
@@ -73,4 +69,4 @@ Some of the limitations of this project include:
 - We have not yet implemented a mobile app version, but this could be part of future development.
 
 ## Conclusion
-In conclusion, Society 360 is an innovative and effective solution for society management, bringing all essential features together into one platform. By automating tasks like payments, complaints, and amenity bookings, we aim to reduce manual effort and improve the overall experience for both owners and administrators. The project is scalable, secure, and efficient, with room for future enhancements based on user feedback.
+In conclusion, Grand Casa Society is an innovative and effective solution for society management, bringing all essential features together into one platform. By automating tasks like payments, complaints, and amenity bookings, we aim to reduce manual effort and improve the overall experience for both owners and administrators. The project is scalable, secure, and efficient, with room for future enhancements based on user feedback.
