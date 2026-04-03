@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-4)%8pohh=oay45i65ww*^h5o66hkta3y2))w=4l7k@y$2%wjcx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["35.202.131.45"]
 
 
 # Ngrok Configuration
@@ -103,12 +103,23 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 
 # LOCAL HOST DATABASE CONFIG
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': "society360",
+#         'USER': "postgres",
+#         'PASSWORD': "root",
+#         'HOST': "localhost",
+#         'PORT': "5432",
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': "society360",
-        'USER': "postgres",
-        'PASSWORD': "root",
+        'USER': "datta",
+        'PASSWORD': "hello2020",
         'HOST': "localhost",
         'PORT': "5432",
     }
